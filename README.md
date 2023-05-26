@@ -11,7 +11,7 @@ Call provBuildEnv() with the following parameters:
 
 provBuildEnv() will create a docker folder in the provenance directory. To run the docker container, use the terminal to navigate into the docker folder, then execute the following commands. Make sure Docker is running on your machine before you do this:
 
-docker build -t <docker.image.name> .
+docker build -t <docker.image.name> . \n
 docker compose up
 
 
